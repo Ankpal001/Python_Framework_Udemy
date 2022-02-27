@@ -1,0 +1,129 @@
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Header>
+		<wsse:Security soapenv:mustUnderstand="1"
+			xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<wsse:UsernameToken>
+				<wsse:Username>bbgw</wsse:Username>
+				<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">bbgw2euam</wsse:Password>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body>
+		<p797:AddForeignSubAccountRequest
+			xmlns:p673="http://uam.att.com/webservice/ebillhierarchy/elementsinfo"
+			xmlns:p797="http://uam.att.com/webservice/foreignaccount">
+			<p673:ForeignSubAccountInfo>
+				<p673:SubAccountInfo>
+					<p673:MasterCustNumber xsi:nil="true"/>
+					<p673:SalesOffice xsi:nil="true"/>
+					<p673:BillGroup xsi:nil="true"/>
+					<p673:Description>ATBS000000105</p673:Description>
+					<p673:FAN xsi:nil="true"/>
+					<p673:SubAccountTaxAddressValidationRequiredIndicator xsi:nil="true"/>
+					<p673:TaxAddressInfo>
+						<p673:AddressInfo>
+							<p673:Line1>5300 PATTERSON AVE. SE                  </p673:Line1>
+							<p673:Line2>SUITE 100                               </p673:Line2>
+							<p673:Line3/>
+							<p673:Line4/>
+							<p673:State>MI</p673:State>
+							<p673:City>GRAND RAPIDS        </p673:City>
+							<p673:ForeignPostal xsi:nil="true"/>
+							<p673:Zip>49512</p673:Zip>
+							<p673:ZipCodeSuffix></p673:ZipCodeSuffix>
+							<p673:GeoCode>0100000000000</p673:GeoCode>
+						</p673:AddressInfo>
+					</p673:TaxAddressInfo>
+					<p673:ChildForeignAccountInfo>
+						<p673:ForeignAccountNumber>ATBS000000105</p673:ForeignAccountNumber>
+						<p673:SourceBillerIdentifier>ATBS</p673:SourceBillerIdentifier>
+						<p673:HieararchyPointType>AS</p673:HieararchyPointType>
+						<p673:ForeignAccountTypeCode>CT</p673:ForeignAccountTypeCode>
+						<p673:CreateParentForeignAccount xsi:nil="true"/>
+						<p673:ParentForeignAccountInfo>
+							<p673:ParentForeignAccountNumber>ATBS000000105</p673:ParentForeignAccountNumber>
+							<p673:ParentSourceBillerIdentifier>ATBS</p673:ParentSourceBillerIdentifier>
+							<p673:ParentHieararchyPointType>I</p673:ParentHieararchyPointType>
+							<p673:ParentForeignAccountTypeCode>CA</p673:ParentForeignAccountTypeCode>
+						</p673:ParentForeignAccountInfo>
+					</p673:ChildForeignAccountInfo>
+				</p673:SubAccountInfo>
+				<p673:CDGInfo>
+					<p673:CDGID>93</p673:CDGID>
+					<p673:Description/>
+					<p673:SummaryBillIndicator/>
+					<p673:FAN xsi:nil="true"/>
+					<p673:CDGHierPntID/>
+					<p673:AdminId xsi:nil="true"/>
+					<p673:SubAccountInfo>
+						<p673:MasterCustNumber xsi:nil="true"/>
+						<p673:SalesOffice xsi:nil="true"/>
+						<p673:BillGroup xsi:nil="true"/>
+						<p673:Description>ATBS000000105</p673:Description>
+						<p673:FAN xsi:nil="true"/>
+						<p673:SubAccountTaxAddressValidationRequiredIndicator xsi:nil="true"/>
+						<p673:TaxAddressInfo>
+							<p673:AddressInfo>
+								<p673:Line1>5300 PATTERSON AVE. SE                  </p673:Line1>
+								<p673:Line2>SUITE 100                               </p673:Line2>
+								<p673:Line3/>
+								<p673:Line4/>
+								<p673:State>MI</p673:State>
+								<p673:City>GRAND RAPIDS        </p673:City>
+								<p673:ForeignPostal xsi:nil="true"/>
+								<p673:Zip>49512</p673:Zip>
+								<p673:ZipCodeSuffix></p673:ZipCodeSuffix>
+								<p673:GeoCode>0100000000000</p673:GeoCode>
+							</p673:AddressInfo>
+						</p673:TaxAddressInfo>
+						<p673:ChildForeignAccountInfo>
+							<p673:ForeignAccountNumber>ATBS000000105</p673:ForeignAccountNumber>
+							<p673:SourceBillerIdentifier>ATBS</p673:SourceBillerIdentifier>
+							<p673:HieararchyPointType>AS</p673:HieararchyPointType>
+							<p673:ForeignAccountTypeCode>CT</p673:ForeignAccountTypeCode>
+							<p673:CreateParentForeignAccount xsi:nil="true"/>
+							<p673:ParentForeignAccountInfo>
+								<p673:ParentForeignAccountNumber>ATBS000000105</p673:ParentForeignAccountNumber>
+								<p673:ParentSourceBillerIdentifier>ATBS</p673:ParentSourceBillerIdentifier>
+								<p673:ParentHieararchyPointType>I</p673:ParentHieararchyPointType>
+								<p673:ParentForeignAccountTypeCode>CA</p673:ParentForeignAccountTypeCode>
+							</p673:ParentForeignAccountInfo>
+						</p673:ChildForeignAccountInfo>
+					</p673:SubAccountInfo>
+					<p673:GenericAggregatorInfo xsi:nil="true"/>
+				</p673:CDGInfo>
+				<p673:CDGNodeND>1</p673:CDGNodeND>
+				<p673:UnblockIndicator xsi:nil="true"/>
+				<p673:InvoiceAccountNumber xsi:nil="true"/>
+			</p673:ForeignSubAccountInfo>
+			<p797:ApplicationName>BBGW</p797:ApplicationName>
+		</p797:AddForeignSubAccountRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[2/15/22 3:49:03:111 PST] 000000f4 WSPerf        3   HttpOutboundChannelConnection.connect.oConn.connect() calling
+[2/15/22 3:49:03:111 PST] 000000f4 WSPerf        3   HttpOutboundChannelConnection.connect.oConn.connect() returned
+[2/15/22 3:49:03:112 PST] 000000f4 WSPerf        3   HttpOutboundChannelConnection.sendSOAPRequest.finishRequestMessage() calling http://zlt04394.vci.att.com:8889/euamproxy/services/AddForeignSubAccountService
+[2/15/22 3:49:08:387 PST] 000000f4 WSPerf        3   HttpOutboundChannelConnection.sendSOAPRequest.finishRequestMessage() returned
+[2/15/22 3:49:08:388 PST] 000000f4 MessageTrace  3   WSWS3570I: Inbound HTTP SOAP response:
+Content-Type: text/xml;charset=UTF-8
+Message contents:
+
+<soap:Envelope
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:AddForeignSubAccountResponse
+			xmlns="http://uam.att.com/webservice/ebillhierarchy/elementsinfo"
+			xmlns:ns2="http://uam.att.com/webservice/foreignaccount"
+			xmlns:ns3="http://cio.att.com/commonheader/v3">
+			<ns2:StatusCode>2</ns2:StatusCode>
+			<ns3:WSMessageData>
+				<ns3:MessageId>60173</ns3:MessageId>
+				<ns3:RefToMessageId> Address[1] validation Failed Client received SOAP Fault from server: Unknown Error Please see the server log to find more detail regarding exact cause of the failure.</ns3:RefToMessageId>
+			</ns3:WSMessageData>
+		</ns2:AddForeignSubAccountResponse>
+	</soap:Body>
+</soap:Envelope>

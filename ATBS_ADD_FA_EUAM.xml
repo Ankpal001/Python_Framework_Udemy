@@ -1,0 +1,125 @@
+soap/encoding/"
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soapenv:Header></soapenv:Header>
+<soapenv:Body>
+	<p797:AddForeignSubAccountRequest
+		xmlns:p797="http://uam.att.com/webservice/foreignaccount">
+		<p673:ForeignSubAccountInfo
+			xmlns:p673="http://uam.att.com/webservice/ebillhierarchy/elementsinfo">
+			<p673:SubAccountInfo>
+				<p673:MasterCustNumber xsi:nil="true"></p673:MasterCustNumber>
+				<p673:SalesOffice xsi:nil="true"></p673:SalesOffice>
+				<p673:BillGroup xsi:nil="true"></p673:BillGroup>
+				<p673:Description>ATBS000000102</p673:Description>
+				<p673:FAN xsi:nil="true"></p673:FAN>
+				<p673:SubAccountTaxAddressValidationRequiredIndicator xsi:nil="true"></p673:SubAccountTaxAddressValidationRequiredIndicator>
+				<p673:TaxAddressInfo>
+					<p673:AddressInfo>
+						<p673:Line1>5300 PATTERSON AVE. SE                  </p673:Line1>
+						<p673:Line2>SUITE 100                               </p673:Line2>
+						<p673:Line3></p673:Line3>
+						<p673:Line4></p673:Line4>
+						<p673:State>MI</p673:State>
+						<p673:City>GRAND RAPIDS        </p673:City>
+						<p673:ForeignPostal xsi:nil="true"></p673:ForeignPostal>
+						<p673:Zip>49512</p673:Zip>
+						<p673:ZipCodeSuffix></p673:ZipCodeSuffix>
+						<p673:GeoCode>0100000000000</p673:GeoCode>
+					</p673:AddressInfo>
+				</p673:TaxAddressInfo>
+				<p673:ChildForeignAccountInfo>
+					<p673:ForeignAccountNumber>ATBS000000102</p673:ForeignAccountNumber>
+					<p673:SourceBillerIdentifier>ATBS</p673:SourceBillerIdentifier>
+					<p673:HieararchyPointType>AS</p673:HieararchyPointType>
+					<p673:ForeignAccountTypeCode>CT</p673:ForeignAccountTypeCode>
+					<p673:CreateParentForeignAccount xsi:nil="true"></p673:CreateParentForeignAccount>
+					<p673:ParentForeignAccountInfo>
+						<p673:ParentForeignAccountNumber>ATBS000000102</p673:ParentForeignAccountNumber>
+						<p673:ParentSourceBillerIdentifier>ATBS</p673:ParentSourceBillerIdentifier>
+						<p673:ParentHieararchyPointType>I</p673:ParentHieararchyPointType>
+						<p673:ParentForeignAccountTypeCode>CA</p673:ParentForeignAccountTypeCode>
+					</p673:ParentForeignAccountInfo>
+				</p673:ChildForeignAccountInfo>
+			</p673:SubAccountInfo>
+			<p673:CDGInfo>
+				<p673:CDGID>93</p673:CDGID>
+				<p673:Description></p673:Description>
+				<p673:SummaryBillIndicator></p673:SummaryBillIndicator>
+				<p673:FAN xsi:nil="true"></p673:FAN>
+				<p673:CDGHierPntID></p673:CDGHierPntID>
+				<p673:AdminId xsi:nil="true"></p673:AdminId>
+				<p673:SubAccountInfo>
+					<p673:MasterCustNumber xsi:nil="true"></p673:MasterCustNumber>
+					<p673:SalesOffice xsi:nil="true"></p673:SalesOffice>
+					<p673:BillGroup xsi:nil="true"></p673:BillGroup>
+					<p673:Description>ATBS000000102</p673:Description>
+					<p673:FAN xsi:nil="true"></p673:FAN>
+					<p673:SubAccountTaxAddressValidationRequiredIndicator xsi:nil="true"></p673:SubAccountTaxAddressValidationRequiredIndicator>
+					<p673:TaxAddressInfo>
+						<p673:AddressInfo>
+							<p673:Line1>5300 PATTERSON AVE. SE                  </p673:Line1>
+							<p673:Line2>SUITE 100                               </p673:Line2>
+							<p673:Line3></p673:Line3>
+							<p673:Line4></p673:Line4>
+							<p673:State>MI</p673:State>
+							<p673:City>GRAND RAPIDS        </p673:City>
+							<p673:ForeignPostal xsi:nil="true"></p673:ForeignPostal>
+							<p673:Zip>49512</p673:Zip>
+							<p673:ZipCodeSuffix></p673:ZipCodeSuffix>
+							<p673:GeoCode>0100000000000</p673:GeoCode>
+						</p673:AddressInfo>
+					</p673:TaxAddressInfo>
+					<p673:ChildForeignAccountInfo>
+						<p673:ForeignAccountNumber>ATBS000000102</p673:ForeignAccountNumber>
+						<p673:SourceBillerIdentifier>ATBS</p673:SourceBillerIdentifier>
+						<p673:HieararchyPointType>AS</p673:HieararchyPointType>
+						<p673:ForeignAccountTypeCode>CT</p673:ForeignAccountTypeCode>
+						<p673:CreateParentForeignAccount xsi:nil="true"></p673:CreateParentForeignAccount>
+						<p673:ParentForeignAccountInfo>
+							<p673:ParentForeignAccountNumber>ATBS000000102</p673:ParentForeignAccountNumber>
+							<p673:ParentSourceBillerIdentifier>ATBS</p673:ParentSourceBillerIdentifier>
+							<p673:ParentHieararchyPointType>I</p673:ParentHieararchyPointType>
+							<p673:ParentForeignAccountTypeCode>CA</p673:ParentForeignAccountTypeCode>
+						</p673:ParentForeignAccountInfo>
+					</p673:ChildForeignAccountInfo>
+				</p673:SubAccountInfo>
+				<p673:GenericAggregatorInfo xsi:nil="true"></p673:GenericAggregatorInfo>
+			</p673:CDGInfo>
+			<p673:CDGNodeND>1</p673:CDGNodeND>
+			<p673:UnblockIndicator xsi:nil="true"></p673:UnblockIndicator>
+			<p673:InvoiceAccountNumber xsi:nil="true"></p673:InvoiceAccountNumber>
+		</p673:ForeignSubAccountInfo>
+		<p797:ApplicationName>BBGW</p797:ApplicationName>
+	</p797:AddForeignSubAccountRequest>
+</soapenv:Body>undefined</soapenv:Envelope>] Exit
+Message contents:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<S:Envelope
+	xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Header/>
+	<S:Body>
+		<ns0:AddForeignSubAccountResponse
+			xmlns="http://cio.att.com/commonheader/v3"
+			xmlns:ns0="http://uam.att.com/webservice/foreignaccount"
+			xmlns:ns1="http://uam.att.com/webservice/ebillhierarchy/elementsinfo">
+			<ns0:StatusCode>0</ns0:StatusCode>
+			<ns0:CdgId>000093</ns0:CdgId>
+			<ns0:CdgHierPntId>9791590</ns0:CdgHierPntId>
+			<ns0:subAccountNodeId>8310002342595</ns0:subAccountNodeId>
+			<ns0:subAccountHierPntId>9801766</ns0:subAccountHierPntId>
+			<ns0:GeoCode></ns0:GeoCode>
+			<ns0:MultipleGeoCodeIndicator></ns0:MultipleGeoCodeIndicator>
+			<ns0:ForeignAcctTypeCd>SHORT-ORG-ACCT</ns0:ForeignAcctTypeCd>
+			<ns0:ServiceAdmin1ID></ns0:ServiceAdmin1ID>
+			<ns0:ServiceAdmin2ID></ns0:ServiceAdmin2ID>
+			<WSMessageData>
+				<MessageId>0</MessageId>
+				<RefToMessageId>WebService Transaction Successful.</RefToMessageId>
+			</WSMessageData>
+		</ns0:AddForeignSubAccountResponse>
+	</S:Body>
+</S:Envelope>
